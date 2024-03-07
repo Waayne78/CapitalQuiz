@@ -1,0 +1,61 @@
+body {
+    background-image: url("map.jpg");
+}
+
+
+.container {
+    width: 350px;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f0f0f0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.score {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.question {
+    margin-bottom: 20px;
+}
+
+.question h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/* .question img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 10px;
+} */
+
+.answers input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.answers .btn-next {
+    padding: 10px 20px;
+    background-color: gold;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-restart {
+    font-size: 24px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
